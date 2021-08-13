@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Make my choice</title>
+</head>
+<body>
+    <div id="mainContainer" class="container">
+        <div class="row" style="min-height: 10vh;"></div>
+        <div class="row">
+            <div class="col s12 m4 l2"></div>
+            <div class="col s12 m4 l8" style="text-align: center;"><p style="font-size: 5vh; margin-bottom: 0%">MAKE MY CHOICE</p></div>
+            <div class="col s12 m4 l2"></div>
+        </div>
+        <div class="row">
+            <div class="col s12 m4 l2"></div>
+            <div class="col s12 m4 l8" style="text-align: center;"><p>Best tool for indecisive people</p></div>
+            <div class="col s12 m4 l2"></div>
+        </div>
+        <div id="containerBefore">
+            <div id="mainChoix" class="row">
+                <div class="col s12 m4 l2"></div>
+                <div class="col s12 m4 l8"><p>
+                    <ul class="liste">
+                        <li class="inactive">
+                            <div class="valign-wrapper">
+                                <i class="small material-icons" style="margin: 2%;" >blur_circular</i>
+                                <input class="item" placeholder="Add">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s12 m4 l2"></div>
+            </div>
+            <div class="row" style="text-align: center;">
+                <a id="buttonAdd" class="waves-effect waves-black btn-flat">Add</a>
+            </div>
+            <div class="row" style="text-align: center;">
+                <a id="buttonRoll" class="waves-effect waves-black btn-flat" disabled>Roll</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</html>

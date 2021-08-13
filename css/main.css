@@ -1,0 +1,29 @@
+html{
+    background-color: #ffffff;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+#mainContainer{
+    min-height: 99vh;
+}
+
+input{
+    resize: horizontal;
+    min-width: 90%;
+}
+input:focus{
+    opacity: 100%;
+    border-bottom: 1px solid #000 !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+.inactive{
+    position: relative !important;
+}
+#square{
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+#belge{
+    background: linear-gradient(45deg, rgba(0,0,0,1) 13%, rgba(253,218,36,1) 50%, rgba(239,51,64,1) 77%);
+}
+#cool{
+    display: none;
+}
